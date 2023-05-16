@@ -1,7 +1,12 @@
 #!/usr/bin/python3
+"""Module that creates a square class"""
+
 
 class Square:
+    """Creates Square class"""
+
     def __init__(self, width=0, height=0):
+        """init method that initialises attributes"""
         self.width = width
         self.height = height
 
@@ -15,6 +20,7 @@ class Square:
 
     def __str__(self):
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
     s = Square(width=12, height=9)
